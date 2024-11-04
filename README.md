@@ -44,7 +44,7 @@ configura todo o KubeCTL
 - Problema no fedora com muitos nodes, provavelmente no firewalld
 
 ### Acessar com o kind os serviços (K3D é alternativa mais leve)
-- Fazer o mapeamento de portas
+- Fazer o mapeamento de portas no kind-config.yaml
 ```
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
